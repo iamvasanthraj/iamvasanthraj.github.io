@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(3, 1, 29);
+}
+.container {
+    background-color: rgb(69, 67, 67);
+    display: flex;
+    color: white;
+    padding: 10px;
+    justify-content: space-between; /* Align items to the start and end of the container */
+  }
+  .navbar {
+    margin-left: 50px;
+    display: flex;
+   
+    align-items: center; /* Align items vertically in the center */
+  }
+  .navbar h1{
+    font-size: 30px;
+  }
+  
+  .navbar a {
+    font-weight: 500;
+    margin: 0 10px; 
+
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    display: inline;
+  }
+  .links {
+    display: inline;
+    margin-left: 850px;
+  }
+  .navbar a:hover{
+    color: aqua;
+    text-shadow: 0 0 20px aqua;
+  }
+  .about{
+    color: white;
+    margin-left: 28%;
+    margin-top: 150px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+
+  }
+  .about span{
+    color: aqua;
+  }
+  .about p{
+    margin-top: 20px;
+  }
+  .read{
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    outline: none;
+    border: aqua;
+    background-color:aqua;
+    border-radius: 30px;
+  }
+  .read:hover{
+  box-shadow: 0 0 10px aqua;
+  scale: 1.1;
+  }
+  .about-text {
+    flex-grow: 1;
+  }
+  .img-profile {
+    animation: floatAnimation 2s ease-in-out infinite alternate;
+    margin-right: 20px;
+  }
+  @keyframes floatAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-20px); /* Adjust the value to control the floating height */
+    }
+  }
+  .navbar span{
+    color: aqua;
+  }
