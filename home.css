@@ -13,7 +13,7 @@ body{
   display: flex;
   color: white;
   padding: 10px;
-  justify-content: space-between; /* Align items to the start and end of the container */
+  justify-content: space-between;
 }
 .navbar {
   margin-left: 50px;
@@ -24,7 +24,7 @@ body{
   font-size: 30px;
 }
 
-.navbar a {
+ a {
   font-weight: 500;
   margin: 0 10px; 
 
@@ -41,15 +41,13 @@ body{
   color: aqua;
   text-shadow: 0 0 20px aqua;
 }
-
-.about{
+.about {
   color: white;
   margin-left: 28%;
   margin-top: 150px;
   width: 700px;
   display: flex;
   align-items: center;
-
 }
 .about span{
   color: aqua;
@@ -57,7 +55,7 @@ body{
 .about p{
   margin-top: 20px;
 }
-.read{
+.read {
   width: 200px;
   height: 40px;
   margin-top: 20px;
@@ -82,9 +80,24 @@ scale: 1.1;
     transform: translateY(0);
   }
   100% {
-    transform: translateY(-20px); /* Adjust the value to control the floating height */
+    transform: translateY(-20px); 
   }
 }
 .navbar span{
   color: aqua;
+}
+button{
+  width: 200px;
+  height: 40px;
+  margin-top: 20px;
+  outline: none;
+  text-decoration: none;
+  display: block;
+  border: aqua;
+  background-color:aqua;
+  border-radius: 30px;
+}
+button:hover{
+  box-shadow: 0 0 10px aqua;
+  scale: 1.1;
 }

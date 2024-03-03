@@ -13,12 +13,12 @@ body{
     display: flex;
     color: white;
     padding: 10px;
-    justify-content: space-between; /* Align items to the start and end of the container */
-  }
+    justify-content: space-between; 
+}
   .navbar {
     margin-left: 50px;
     display: flex;
-    align-items: center; /* Align items vertically in the center */
+    align-items: center; 
   }
   .navbar h1{
     font-size: 30px;
@@ -82,7 +82,7 @@ body{
     
     margin-top: 20px;
     color: rgb(255, 179, 0);
-    border: 2px solid aqua;
+    border: 2px solid rgb(2, 238, 124);
     padding: 8px;
     border-radius: 100%;
   }
@@ -113,6 +113,8 @@ body{
       transform: translateY(0);
     }
     100% {
-      transform: translateY(-20px); /* Adjust the value to control the floating height */
+      transform: translateY(-20px); 
     }
   }
+
+  
