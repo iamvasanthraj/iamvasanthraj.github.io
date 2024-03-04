@@ -126,7 +126,7 @@ button:hover{
     width: 100%;
     text-align: center;
     display: block;
-    margin-left: 30px;
+    margin-left: 0px;
     font-size: 10px;
   }
   .navbar a {
@@ -153,7 +153,7 @@ button:hover{
   button {
     width: 120px;
     height: 45px;
-    margin-left: 39%;
+    margin-left: 30%;
     margin-top: 10px;
   }
 }
