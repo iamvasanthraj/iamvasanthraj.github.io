@@ -126,7 +126,7 @@ button:hover{
     width: 100%;
     text-align: center;
     display: block;
-    margin-left: 70px;
+    margin-left: 30px;
     font-size: 10px;
   }
   .navbar a {
@@ -144,6 +144,9 @@ button:hover{
     text-align: center;
     flex-direction: column; 
     text-align: center; 
+  }
+  .img-profile{
+    margin-left: 20px;
   }
 
   .read,
