@@ -121,14 +121,12 @@ button:hover{
   .links{
     display: block;
   }
-  .img-profile{
-    margin-left: 150px ;
-  }
+ 
   .navbar{
     text-align: center;
     display: block;
     margin-left: 70px;
-    font-size: 40px;
+    font-size: 10px;
   }
   .navbar a {
     font-size: 15px;
