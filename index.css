@@ -122,16 +122,16 @@ button:hover{
     display: block;
   }
   .img-profile{
-    margin-left: 15px;
+    margin-left: 50px;
   }
   
   .navbar{
     text-align: center;
     display: block;
-    font-size: 20px;
+    font-size: 40px;
   }
   .navbar a {
-    
+    font-size: 10px;
     margin-left: 0;
   }
   .links {
