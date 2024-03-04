@@ -40,6 +40,10 @@ body{
     color: aqua;
     text-shadow: 0 0 20px aqua;
   }
+  a.about{
+    color: aqua;
+    text-shadow: 0 0 20px aqua;
+  }
   .container-about{
     color: white;
     margin-left: 200px;

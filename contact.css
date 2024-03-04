@@ -102,3 +102,7 @@ scale: 1.1;
 .navbar span{
   color: aqua;
 }
+a.contact{
+  color: aqua;
+  text-shadow: 0 0 20px aqua;
+}

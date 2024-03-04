@@ -41,6 +41,11 @@ body{
   color: aqua;
   text-shadow: 0 0 20px aqua;
 }
+a.home{
+  color: aqua;
+  text-shadow: 0 0 20px aqua;
+}
+
 .about {
   color: white;
   margin-left: 28%;
@@ -101,3 +106,4 @@ button:hover{
   box-shadow: 0 0 10px aqua;
   scale: 1.1;
 }
+

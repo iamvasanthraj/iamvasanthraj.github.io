@@ -85,3 +85,7 @@ font-size: 20px;
 padding: 5px;
   text-align: center;
 }
+a.pot{
+  color: aqua;
+  text-shadow: 0 0 20px aqua;
+}
