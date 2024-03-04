@@ -119,6 +119,14 @@ button:hover{
     align-items: center; 
     
   }
+  .about {
+    margin-left: 0px;
+    margin-top: 50px;
+    width: 370px;
+    text-align: center;
+    flex-direction: column; 
+    text-align: center; 
+  }
 
   .links{
     display: block;
@@ -139,14 +147,7 @@ button:hover{
     margin-left: 0px;
     margin-top: 20px;
   }
-  .about {
-    margin-left: 0px;
-    margin-top: 50px;
-    width: 370px;
-    text-align: center;
-    flex-direction: column; 
-    text-align: center; 
-  }
+  
   .img-profile{
     margin-left: 20px;
   }
