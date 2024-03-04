@@ -127,7 +127,7 @@ button:hover{
     width: 100%;
     text-align: center;
     display: block;
-    margin-left: 5px;
+    margin-left: 10px;
     font-size: 10px;
   }
   .navbar a {
@@ -136,8 +136,8 @@ button:hover{
     margin-left: 5px;
   }
   .links {
-    margin-left: 0;
-    margin-top: 10px;
+    margin-left: 0px;
+    margin-top: 20px;
   }
   .about {
     margin-left: 0px;
