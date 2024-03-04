@@ -53,6 +53,7 @@ a.home{
   width: 700px;
   display: flex;
   align-items: center;
+ 
 }
 .about span{
   color: aqua;
@@ -107,3 +108,49 @@ button:hover{
   scale: 1.1;
 }
 
+@media only screen and (max-width: 600px) {
+ *{
+   margin: 0;
+   padding: 0;
+ }
+  .container {
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+
+  .links{
+    display: block;
+  }
+  
+  .navbar{
+    margin-left: 50px;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+  }
+  .navbar a {
+    font-size: 14px;
+    margin-left: 5;
+  }
+  .links {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .about {
+    margin-left: 0;
+    margin-top: 50px;
+    width: 500px;
+    text-align: center;
+    flex-direction: column; /* Adjusted for mobile */
+    text-align: center; /* Adjusted for mobile */
+  }
+
+  .read,
+  button {
+    width: 120px;
+    height: 45px;
+    margin-left: 39%;
+    margin-top: 10px;
+  }
+}
