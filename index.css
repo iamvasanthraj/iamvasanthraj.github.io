@@ -115,8 +115,7 @@ button:hover{
  }
   .container {
     flex-direction: row;
-    align-items: center;
-    width: 100%;
+    align-items: center;  
   }
 
   .links{
@@ -124,8 +123,6 @@ button:hover{
   }
   
   .navbar{
-    margin-left: 30px;
-    width: 100%;
     text-align: center;
     display: block;
     font-size: 20px;
@@ -143,8 +140,8 @@ button:hover{
     margin-top: 50px;
     width: 100%;
     text-align: center;
-    flex-direction: column; /* Adjusted for mobile */
-    text-align: center; /* Adjusted for mobile */
+    flex-direction: column; 
+    text-align: center; 
   }
 
   .read,
