@@ -42,3 +42,63 @@ body{
     color: aqua;
     text-shadow: 0 0 20px aqua;
   }
+ 
+
+.container-contact {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+   color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-contact h1,p{
+  margin-top: 5px;
+    text-align: center;
+}
+.container-contact span{
+  color: aqua;
+}
+
+.form-group {
+  margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+label {
+  color: aqua;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+button{
+  width: 200px;
+  height: 40px;
+ margin-top: 5px;
+  outline: none;
+  margin-left: 220px;
+  border: aqua;
+  background-color:aqua;
+  border-radius: 30px;
+}
+button:hover{
+box-shadow: 0 0 10px aqua;
+scale: 1.1;
+}
+.navbar span{
+  color: aqua;
+}

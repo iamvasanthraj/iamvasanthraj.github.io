@@ -1,44 +1,87 @@
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 body{
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    background-color: rgb(3, 1, 29);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgb(3, 1, 29);
 }
 .container {
-    background-color: rgb(69, 67, 67);
-    display: flex;
-    color: white;
-    padding: 10px;
-    justify-content: space-between; 
-  }
-  .navbar {
-    margin-left: 50px;
-    display: flex;
-   
-    align-items: center; 
-  }
-  .navbar h1{
-    font-size: 30px;
-  }
-  
-  .navbar a {
-    font-weight: 500;
-    margin: 0 10px; 
+  background-color: rgb(69, 67, 67);
+  display: flex;
+  color: white;
+  padding: 10px;
+  justify-content: space-between; 
+}
+.navbar {
+  margin-left: 50px;
+  display: flex;
+ 
+  align-items: center; 
+}
+.navbar h1{
+  font-size: 30px;
+}
 
-    font-size: 18px;
-    text-decoration: none;
-    color: white;
-    display: inline;
-  }
-  .links {
-    display: inline;
-    margin-left: 850px;
-  }
-  .navbar a:hover{
-    color: aqua;
-    text-shadow: 0 0 20px aqua;
-  }
+.navbar a {
+  font-weight: 500;
+  margin: 0 10px; 
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  display: inline;
+}
+.links {
+  display: inline;
+  margin-left: 850px;
+}
+.navbar a:hover{
+  color: aqua;
+  text-shadow: 0 0 20px aqua;
+}
+
+.boi{
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+ 
+}
+.mini-boi{
+  width: 1150px;
+  justify-content: center;
+  /* background-color: rgb(233, 235, 235); */
+}
+.micro-boi{
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 350px;
+  border-radius: 10px;
+  justify-content: center;
+  display: inline-block;
+  height: 250px;
+  background-color: rgb(27, 3, 49);
+ 
+
+ 
+}
+h3{
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+  
+  font-size: 40px;
+}
+span{
+  color: aqua;
+}
+h2{
+  color: rgb(13, 13, 13);
+background-color: aqua;
+border-radius: 8px;
+font-size: 20px;
+padding: 5px;
+  text-align: center;
+}
