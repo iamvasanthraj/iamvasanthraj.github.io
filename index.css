@@ -108,7 +108,7 @@ button:hover{
   scale: 1.1;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
  *{
    margin: 0;
    padding: 0;
@@ -124,7 +124,8 @@ button:hover{
   }
   
   .navbar{
-    margin-left: 50px;
+    margin-left: 30px;
+    width: 100%;
     text-align: center;
     display: block;
     font-size: 20px;
@@ -140,7 +141,7 @@ button:hover{
   .about {
     margin-left: 0;
     margin-top: 50px;
-    width: 500px;
+    width: 100%;
     text-align: center;
     flex-direction: column; /* Adjusted for mobile */
     text-align: center; /* Adjusted for mobile */
