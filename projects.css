@@ -89,7 +89,7 @@ a.pot{
   color: aqua;
   text-shadow: 0 0 20px aqua;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 400px) {
   *{
     margin: 0;
     padding: 0;

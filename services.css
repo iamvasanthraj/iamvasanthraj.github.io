@@ -115,7 +115,7 @@ i {
     color: aqua;
     text-shadow: 0 0 20px aqua;
   }
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 400px) {
     *{
       margin: 0;
       padding: 0;
@@ -154,7 +154,7 @@ i {
          display: flex;
       }
     .mini-container {
-        width: 80%; /* Adjust width */
+        width: 90%; /* Adjust width */
         margin: 20px auto;
         margin-left: 50px; /* Center the container */
     }
