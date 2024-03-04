@@ -122,9 +122,8 @@ body{
     padding: 0;
   }
    .container {
-     width: 470px;
-     flex-direction: row;
-     align-items: center; 
+     width: 465px;
+    
    }
    .about {
      margin-left: 0px;
@@ -137,12 +136,12 @@ body{
    .links{
      display: block;
    }
-   .navbar{
-     width: 100%;
-     text-align: center;
-     display: block;
-     margin-left: 0px;
-   }
+  .navbar{
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-left: 0px;
+  }
    .navbar a {
      font-size: 15px;
      margin-left: 0px;
