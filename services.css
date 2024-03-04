@@ -115,3 +115,58 @@ i {
     color: aqua;
     text-shadow: 0 0 20px aqua;
   }
+  @media only screen and (max-width: 768px) {
+    *{
+      margin: 0;
+      padding: 0;
+    }
+     .container {
+       width: 465px;
+      
+     }
+     .about {
+       margin-left: 0px;
+       margin-top: 50px;
+       width: 370px;
+       text-align: center;
+       flex-direction: column; 
+       text-align: center; 
+     }
+     .links{
+       display: block;
+     }
+    .navbar{
+      width: 100%;
+      text-align: center;
+      display: block;
+      margin-left: 0px;
+    }
+     .navbar a {
+       font-size: 15px;
+       margin-left: 0px;
+     }
+     .links {
+       margin-left: 0px;
+       margin-top: 20px;
+     }
+    .big-boi {
+        margin-top: 20px; /* Add some spacing */
+         display: flex;
+      }
+    .mini-container {
+        width: 80%; /* Adjust width */
+        margin: 20px auto;
+        margin-left: 50px; /* Center the container */
+    }
+    i {
+      margin-left: 37%; /* Center the icon */
+        margin-right: auto; /* Center the icon */
+    }
+    button {
+        margin-left: 34%; /* Center the button */
+        margin-right: auto; /* Center the button */
+    }
+    h3 {
+        font-size: 30px; /* Adjust font size */
+    }
+}

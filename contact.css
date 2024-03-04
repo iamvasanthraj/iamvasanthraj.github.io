@@ -106,3 +106,52 @@ a.contact{
   color: aqua;
   text-shadow: 0 0 20px aqua;
 }
+@media only screen and (max-width: 768px) {
+  *{
+    margin: 0;
+    padding: 0;
+  }
+   .container {
+     width: 480px;
+    
+   }
+   .about {
+     margin-left: 0px;
+     margin-top: 50px;
+     width: 370px;
+     text-align: center;
+     flex-direction: column; 
+     text-align: center; 
+   }
+   .links{
+     display: block;
+   }
+  .navbar{
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-left: 0px;
+  }
+   .navbar a {
+     font-size: 15px;
+     margin-left: 0px;
+   }
+   .links {
+     margin-left: 0px;
+     margin-top: 20px;
+   }
+  .container-contact {
+      max-width: 80%; /* Occupy full width */
+      margin: 20px auto; /* Adjust margin */
+      padding: 10px; /* Adjust padding */
+  }
+  button {
+      width: 50%;
+      /* Occupy full width */
+      margin-left: 30%; /* Reset margin */
+  }
+  button:hover {
+   
+      box-shadow: none; /* Remove box shadow on hover */
+  }
+}

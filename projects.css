@@ -89,3 +89,55 @@ a.pot{
   color: aqua;
   text-shadow: 0 0 20px aqua;
 }
+@media only screen and (max-width: 768px) {
+  *{
+    margin: 0;
+    padding: 0;
+  }
+   .container {
+     width: 465px;
+    
+   }
+   .about {
+     margin-left: 0px;
+     margin-top: 50px;
+     width: 370px;
+     text-align: center;
+     flex-direction: column; 
+     text-align: center; 
+   }
+   .links{
+     display: block;
+   }
+  .navbar{
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-left: 0px;
+  }
+   .navbar a {
+     font-size: 15px;
+     margin-left: 0px;
+   }
+   .links {
+     margin-left: 0px;
+     margin-top: 20px;
+   }
+  .boi {
+      margin-top: 20px;
+  }
+  .mini-boi {
+      width: 90%;
+      margin-left: 10%;
+      padding: 5px;
+      margin-top: 5px;
+    
+  }
+  .micro-boi {
+      width: 90%;
+      margin: 20px auto;
+  }
+  h3 {
+      font-size: 30px;
+  }
+}
