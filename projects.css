@@ -54,19 +54,22 @@ body{
   justify-content: center;
   /* background-color: rgb(233, 235, 235); */
 }
-.micro-boi{
+.micro-boi {
   margin-left: 20px;
   margin-top: 20px;
-  width: 350px;
+  width: 550px;
   border-radius: 10px;
   justify-content: center;
   display: inline-block;
-  height: 250px;
+  height: 400px;
   background-color: rgb(27, 3, 49);
- 
-
- 
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
 }
+
+.micro-boi:hover {
+  transform: scale(1.5); /* Increase size on hover */
+}
+
 h3{
   color: white;
   text-align: center;
